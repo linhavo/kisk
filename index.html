@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio – KISK MUNI</title>
+    <title>Vojta Linha - Portfolio – KISK MUNI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -33,13 +33,14 @@
                 <div class="hero-index">FEL ČVUT → KISK FF MU</div>
             </div>
             <h1 class="fade">Design<br><span>informačních</span><br>služeb</h1>
-            <p class="hero-desc fade">Vojta Linha — Frontend developer a UI/UX designér, který hledá metodický základ
+            <p class="hero-desc fade">Vojta Linha — Frontend developer a UI/UX designér, <br /> který hledá metodický
+                základ
                 pro to, co se naučil praxí.</p>
             <div class="hero-meta fade">
-                <span class="tag">8 let grafický design</span>
-                <span class="tag">React / TypeScript</span>
-                <span class="tag">UI/UX · st.dio</span>
-                <span class="tag">diplomová práce · Linha</span>
+                <span class="tag">grafický design</span>
+                <span class="tag">front-end vývoj</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">diplomová práce</span>
             </div>
         </div>
     </section>
@@ -56,7 +57,7 @@
                     <div class="letter-date">
                         V Praze, 28. února 2026<br>
                         Katedra informačních studií a knihovnictví<br>
-                        Filozofická fakulta MU, Brno
+                        Filozofická fakulta MUNI, Brno
                     </div>
                 </div>
 
@@ -134,7 +135,8 @@
                     <div>
                         <div class="detail">
                             <div class="detail-label">// kontext</div>
-                            <p>Diplomová práce na FEL ČVUT. Návrh mobilní aplikace, která přibližuje hormonální cyklus
+                            <p>Diplomová práce na Fakultě elektrotechnické ČVUT v Praze. Návrh mobilní aplikace, která
+                                přibližuje hormonální cyklus
                                 partnerky srozumitelným a bezpečným způsobem — parťák, ne učebnice.</p>
                         </div>
                         <div class="detail">
@@ -146,13 +148,13 @@
                     <div>
                         <div class="detail">
                             <div class="detail-label">// moje role</div>
-                            <p>Celý projekt samostatně — od screenerů a rozhovorů, přes skici a LoFi iterace, po
+                            <p>Od screenerů a rozhovorů, přes skicy a LoFi iterace, po
                                 testování. Aktuálně příprava HiFi pro deníkovou studii.</p>
                         </div>
                         <div class="detail">
                             <div class="detail-label">// klíčové zjištění</div>
-                            <p>První LoFi bylo příliš abstraktní. Muži potřebují konkrétní, praktický kontext. Toto
-                                zjištění změnilo celý směr návrhu.</p>
+                            <p>První LoFi bylo příliš abstraktní. Testování ukázalo, že pro lepší pochopení a
+                                srozumitelnost je potřeba známější prostředí.</p>
                         </div>
                     </div>
                 </div>
@@ -235,10 +237,17 @@
         <div class="wrap-wide">
             <div class="footer-row">
                 <span>vojta.linha · kisk_muni_2026</span>
+                <span>aplikace byla spoluvytvořena za pomoci LLM modelů</span>
                 <span>linhavo.github.io/kisk</span>
             </div>
         </div>
     </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Náhled obrázku">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Zavřít">&times;</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="">
+    </div>
 
     <script src="js/main.js" defer></script>
 

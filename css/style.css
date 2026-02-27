@@ -544,6 +544,39 @@ footer {
    RESPONSIVE
    ============================================= */
 @media (max-width: 600px) {
+  /* Nav */
+  nav .wrap-wide {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .nav-links {
+    gap: 1.2rem;
+  }
+
+  .nav-name svg {
+    height: 14px;
+  }
+
+  /* Hero */
+  h1 {
+    font-size: clamp(2rem, 11vw, 2.6rem);
+  }
+
+  .hero {
+    padding-top: calc(3.5rem + 46px);
+    padding-bottom: 3rem;
+  }
+
+  .hero-top {
+    flex-direction: column;
+  }
+
+  .hero-desc {
+    font-size: 0.88rem;
+  }
+
+  /* Layout */
   .portfolio-head,
   .case-grid,
   .img-grid {
@@ -562,7 +595,9 @@ footer {
     text-align: left;
   }
 
-  .hero-top {
+  /* Footer */
+  .footer-row {
     flex-direction: column;
+    gap: 0.4rem;
   }
 }

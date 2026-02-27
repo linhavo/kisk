@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Local dev server
+node_modules/

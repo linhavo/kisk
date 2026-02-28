@@ -283,6 +283,8 @@ nav .wrap-wide {
 .letter-body p {
   font-size: 0.94rem;
   margin-bottom: 1.4em;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .letter-sign {
